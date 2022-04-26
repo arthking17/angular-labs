@@ -1,0 +1,32 @@
+spring:
+    data:
+        mongodb:
+            authentication-database: admin
+            username: root
+            password: ENC(9wVQUz6pD4m31gCu9Bkyjg==)
+            database: db_server
+            port: 27017
+            host: localhost
+    mvc:
+        servlet:
+            path: /
+        pathmatch:
+            matching-strategy: ant-path-matcher
+    kafka:
+        bootstrap-servers: localhost:9092
+server:
+    port: 8088
+    error:
+        include-message: always
+        include-exception: true
+        include-stacktrace: always
+        include-binding-errors: always
+
+logging:
+    level:
+        root: WARN
+        tn.itss.server : TRACE
+
+jasypt:
+    encryptor:
+        password: t24
