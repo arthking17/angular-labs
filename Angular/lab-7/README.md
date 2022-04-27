@@ -1,4 +1,4 @@
-# Lab-7 Components in TypeSCript
+# Lab-7 Components in Angular+TypeSCript
 
 > Start angular app
 
