@@ -1,9 +1,25 @@
 # Task Tracker
 
+## Get Started
+
 > Start angular app
 
 ```shell
 ng serve
+```
+
+> Install json-server
+
+```shell
+npm install -g json-server
+```
+
+> Start json-server {
+    - add "server": "json-server --watch db.json --port 5000" to *package.json* before runing the cmd below
+}
+
+```shell
+npm run server
 ```
 
 ## About
